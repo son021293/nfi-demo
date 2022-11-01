@@ -7,12 +7,9 @@ const {
   useAccounts,
   useIsActivating,
   useIsActive,
-  useProvider,
-  useENSNames
 } = hooks;
 
 function App() {
-
   const chainId = useChainId();
   const accounts = useAccounts();
   const isActivating = useIsActivating();
